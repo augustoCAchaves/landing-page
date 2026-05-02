@@ -18,11 +18,22 @@
   </head>
 
   <body>
-    <aside class="menu white-bg">
+    <a href="#site-menu" class="mobile-menu-button" aria-label="Abrir menu">
+      <span></span>
+    </a>
+
+    <aside id="site-menu" class="menu white-bg">
       <div class="main-content menu-content">
         <h1>
           <a href="#intro">LOGO</a>
         </h1>
+        <a
+          href="#close-menu"
+          class="mobile-menu-close"
+          aria-label="Fechar menu"
+        >
+          <span></span>
+        </a>
         <nav>
           <ul>
             <li><a href="#intro">intro</a></li>
@@ -34,6 +45,12 @@
         </nav>
       </div>
     </aside>
+
+    <a
+      href="#close-menu"
+      class="mobile-menu-overlay"
+      aria-label="Fechar menu"
+    ></a>
 
     <div class="menu-spacing"></div>
 
@@ -239,5 +256,7 @@
     <footer id="footer" class="white-bg">
       <p>Made with <span class="hearth">❤</span> by Augusto César</p>
     </footer>
+
+    <a href="#" class="back-to-top" aria-label="Voltar ao topo"></a>
   </body>
 </html>
